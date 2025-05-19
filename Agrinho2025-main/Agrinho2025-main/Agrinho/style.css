@@ -45,7 +45,7 @@ header p {
 }
 
 .campo-img, .cidade-img {
-    width: 45%;
+    width: 25%; /* Diminuído de 45% para 35% */
     height: auto;
     border-radius: 10px;
 }
@@ -53,9 +53,9 @@ header p {
 article {
     background: white;
     padding: 20px;
-    width: 80%;
+    width: 90%; /* Aumentado de 80% para 90% */
     max-width: 800px;
-    border-radius: 8px;
+    border-radius: 8px
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,7 +65,7 @@ article h2 {
 }
 
 article p {
-    font-size: 1rem;
+    font-size: 1.1rem; /* Aumentei um pouco o tamanho do texto para ficar maior */
     line-height: 1.8;
 }
 
